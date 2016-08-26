@@ -1,1 +1,10 @@
 {{book-detail book=model}}
+
+<div class="book-reviews">
+  <h2 class="tag-line">Reviews</h2>
+  {{#each model.reviews as |review|}}
+    <h3>{{review.username}}: {{review.reviewContent}}</h3>
+  {{/each}}
+</div>
+
+{{new-review saveNewReview="saveNewReview" book=model}}

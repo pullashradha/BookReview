@@ -7,5 +7,5 @@ export default DS.Model.extend ({
   description: DS.attr(),
   image: DS.attr(),
   totalBookRating: DS.attr("number"),
-  numberOfReviews: DS.hasMany("review", {async: true})
+  reviews: DS.hasMany("review", {async: true})
 });

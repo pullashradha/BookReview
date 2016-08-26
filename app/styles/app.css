@@ -7,6 +7,10 @@ body {
   text-align: center;
 }
 
+.page-end {
+  margin-bottom: 150px;
+}
+
 /*---------------------------Navbar Styling---------------------------*/
 .navbar {
   text-align: center;
@@ -24,11 +28,8 @@ body {
 }
 
 /*---------------------------Admin Styling---------------------------*/
-.admin-content {
+.btn-primary {
   margin-top: 50px;
-}
-
-.admin-content .btn-primary {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -79,5 +80,9 @@ input, textarea {
 .book-content h4 {
   font-size: 25pt;
   margin-top: 50px;
+  text-align: center;
+}
+
+.book-reviews {
   text-align: center;
 }
