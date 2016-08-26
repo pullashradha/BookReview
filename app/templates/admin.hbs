@@ -4,13 +4,22 @@
 
 <div class="admin-books-list">
   <h2>Books List</h2>
-  {{#each model as |book|}}
-  <div class="admin-each-book">
-    <h4>{{book.title}} By {{book.author}}</h4>
-    <div class="row">
-      {{update-book book=book deleteBook="deleteBook"}}
-      <button {{action "deleteBook" book}} class="col-xs-6 btn btn-danger">Delete</button>
+  {{#each model.books as |book|}}
+    <div class="admin-each-book">
+      <h4>{{book.title}} By {{book.author}}</h4>
+      <div class="row">
+        {{update-book book=book deleteBook="deleteBook"}}
+        <button {{action "deleteBook" book}} class="col-xs-6 btn btn-danger">Delete</button>
+      </div>
     </div>
-  </div>
+  {{/each}}
+</div>
+
+<div class="admin-reviews-list">
+  <h2>Reviews List</h2>
+  {{#each model.reviews as |review|}}
+    <div class="admin-each-review">
+      <h4>{{review.username}}: {{review.reviewContent}}</h4>
+    </div>
   {{/each}}
 </div>

@@ -36,12 +36,16 @@ body {
   font-size: 15pt;
 }
 
-.admin-books-list {
+.admin-books-list, .admin-reviews-list {
   text-align: center;
   margin-top: 75px;
 }
 
-.admin-each-book, .index-each-book {
+.admin-books-list h2, .admin-reviews-list h2 {
+  margin-bottom: 35px;
+}
+
+.admin-each-book, .admin-each-review, .index-each-book {
   margin-bottom: 40px;
 }
 
@@ -64,7 +68,7 @@ input, textarea {
   margin-top: 15px;
 }
 
-/*---------------------------Book Details Styling---------------------------*/
+/*---------------------------Book Styling---------------------------*/
 .book-tile {
   margin-left: 5%;
   margin-right: 5%;
@@ -85,4 +89,17 @@ input, textarea {
 
 .book-reviews {
   text-align: center;
+}
+
+/*---------------------------Review Styling---------------------------*/
+.review-tile {
+  width: 500px;
+  height: 500px;
+  margin-top: 35px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.review-tile p {
+  margin-top: 20px;
 }
