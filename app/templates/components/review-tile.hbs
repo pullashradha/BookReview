@@ -1,13 +1,13 @@
 <div class="review-tile">
   <div class="row">
-    <img src={{model.profilePicture}} alt={{model.username}} class="col-xs-6 col-xs-offset-2"/>
+    <img src={{review.profilePicture}} alt={{review.username}} class="col-xs-6 col-xs-offset-2"/>
     <div class="col-xs-4">
-      <h5>{{model.username}}</h5>
-      <h5>Published On: {{model.date}}</h5>
-      <h5>Rating: {{model.rating}}</h5>
+      <h5>{{review.username}}</h5>
+      <h5>Published On: {{review.date}}</h5>
+      <h5>Rating: {{review-rating review.rating}}</h5>
     </div>
   </div>
   <p>
-    {{model.reviewContent}}
+    {{review.reviewContent}}
   </p>
 </div>

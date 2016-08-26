@@ -3,7 +3,7 @@
 <div class="book-reviews">
   <h2 class="tag-line">Reviews</h2>
   {{#each model.reviews as |review|}}
-    {{review-tile model=review}}
+    {{review-tile review=review}}
     {{update-review updateReview="updateReview" review=review}}
   {{/each}}
 </div>

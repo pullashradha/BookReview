@@ -37,7 +37,7 @@ Add a review for a book on book-details page | --- | ---
 View all reviews for a book on book-details page | --- | ---
 Update a review on book detail page | --- | ---
 Delete a review on admin page | --- | ---
-Sort reviews for a book in ascending order | --- | ---
+Sort reviews for a book in descending order by date | --- | ---
 Create a list of favorite books for a reviewer | --- | ---
 
 ## Future Features
