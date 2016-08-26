@@ -28,7 +28,17 @@ No known bugs.
 
 The program should... | Example Input | Example Output
 ----- | ----- | -----
---- | --- | ---
+Add a new book through the admin page | --- | ---
+Update a book through the admin page | --- | ---
+Delete a book through the admin page | --- | ---
+View all books to rate on index page | --- | ---
+View details for one book | --- | ---
+Add a rating for a book on book-details page | --- | ---
+Update a rating on book-details page | --- | ---
+Delete a rating on book-details page | --- | ---
+View all ratings for a book on book-details page | --- | ---
+Sort ratings for a book in ascending order | --- | ---
+Create a list of favorite books for a reviewer | --- | ---
 
 ## Future Features
 
