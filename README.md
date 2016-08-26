@@ -22,7 +22,7 @@ This program can only be accessed on a computer with Git and Atom software, and 
 
 ## Known Bugs
 
-No known bugs.
+* Program allows user to add multiples of the save book to the favorites list
 
 ## Specifications
 
@@ -38,12 +38,13 @@ View all reviews for a book on book-details page | --- | ---
 Update a review on book detail page | --- | ---
 Delete a review on admin page | --- | ---
 Sort reviews for a book in descending order by rating | --- | ---
-Create a list of favorite books for a reviewer | --- | ---
+Create a list of favorite books for a user | --- | ---
 
 ## Future Features
 
 HTML | CSS | EmberJS
 ----- | ----- | -----
+--- | --- | Create user model, save favorite books for each user
 --- | --- | Add imageDescription in models for accessibility
 --- | --- | Sort reviews for a book in descending order by date
 

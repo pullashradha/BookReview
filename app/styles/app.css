@@ -47,6 +47,17 @@ li {
   margin-left: -1.5%;
 }
 
+.btn-outline-danger {
+  font-weight: bold;
+  background-color: #FFFFFF;
+  border-color: red;
+}
+
+.btn-outline-danger:hover {
+  color: #FFFFFF;
+  background-color: red;
+}
+
 /*---------------------------Admin Styling---------------------------*/
 .btn-primary {
   margin-top: 50px;
