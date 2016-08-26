@@ -3,17 +3,53 @@ body {
   color: #000000;
 }
 
+.page-header {
+  text-align: center;
+}
+
 /*---------------------------Navbar Styling---------------------------*/
 .navbar {
   text-align: center;
 }
 
 /*---------------------------Index Styling---------------------------*/
-.page-header {
-  text-align: center;
-}
-
 .index-tagline {
   text-align: center;
   margin-top: 50px;
+}
+
+.books-list {
+  text-align: center;
+  margin-top: 75px;
+}
+
+/*---------------------------Admin Styling---------------------------*/
+.admin-content {
+  margin-top: 50px;
+}
+
+.admin-content .btn-primary {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15pt;
+}
+
+/*---------------------------Form Styling---------------------------*/
+form {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+label {
+  font-size: 15pt;
+}
+
+input, textarea {
+  margin-bottom: 25px;
+}
+
+.btn-success {
+  font-size: 15pt;
+  margin-top: 15px;
 }

@@ -1,2 +1,8 @@
 <h1 class="page-header">Epicodus Book Review</h1>
 <h3 class="index-tagline">Welcome to the best book review site on the Internet!</h3>
+
+<div class="books-list">
+  {{#each model as |book|}}
+    <h2>{{book.title}} By {{book.author}}</h2>
+  {{/each}}
+</div>
