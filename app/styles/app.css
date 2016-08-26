@@ -91,6 +91,13 @@ input, textarea {
   text-align: center;
 }
 
+.btn-info {
+  background-color: #FF1493;
+  border-color: #FF1493;
+  font-size: 20pt;
+  margin-top: 50px;
+}
+
 /*---------------------------Review Styling---------------------------*/
 .review-tile {
   width: 500px;
@@ -102,4 +109,12 @@ input, textarea {
 
 .review-tile p {
   margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 10pt;
 }

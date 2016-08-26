@@ -5,9 +5,15 @@
       <h5>{{review.username}}</h5>
       <h5>Published On: {{review.date}}</h5>
       <h5>Rating: {{review-rating review.rating}}</h5>
+      <p>
+        {{review.reviewContent}}
+      </p>
     </div>
   </div>
-  <p>
-    {{review.reviewContent}}
-  </p>
+  <h5>Favorite Books</h5>
+  <ul>
+    {{#each favoriteBooks.favoriteBooksList as |favoritedBook|}}
+      <li>{{favoritedBook.title}} By {{favoritedBook.author}}</li>
+    {{/each}}
+  </ul>
 </div>
