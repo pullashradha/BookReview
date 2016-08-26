@@ -17,7 +17,7 @@ body {
   text-align: center;
 }
 
-/*---------------------------Index Styling---------------------------*/
+/*---------------------------Index & Favorite Books Styling---------------------------*/
 .tag-line {
   text-align: center;
   margin-top: 50px;
@@ -26,6 +26,25 @@ body {
 .index-books-list {
   text-align: center;
   margin-top: 75px;
+}
+
+.favorite-books {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.favorite-books h2 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 15pt;
+  margin-left: -1.5%;
 }
 
 /*---------------------------Admin Styling---------------------------*/
@@ -105,8 +124,12 @@ input, textarea {
   margin-top: 50px;
 }
 
+.btn-info:hover {
+  background-color: #FF1493;
+  border-color: #FF1493;
+
 /*---------------------------Review Styling---------------------------*/
-hr {
+.hr-reviews {
   border-color: #000000;
 }
 
@@ -126,14 +149,6 @@ hr {
 
 .review-tile p {
   margin-top: 20px;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  font-size: 10pt;
 }
 
 .book-reviews .btn-warning {
