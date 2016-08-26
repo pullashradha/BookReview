@@ -40,6 +40,10 @@ body {
   margin-top: 75px;
 }
 
+.admin-each-book, .index-each-book {
+  margin-bottom: 40px;
+}
+
 /*---------------------------Form Styling---------------------------*/
 form {
   margin-left: 75px;

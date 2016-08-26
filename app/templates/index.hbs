@@ -3,6 +3,8 @@
 
 <div class="index-books-list">
   {{#each model as |book|}}
-    <h2>{{book.title}} By {{book.author}}</h2>
+    <div class="index-each-book">
+      <h2>{{book.title}} By {{book.author}}</h2>
+    </div>
   {{/each}}
 </div>

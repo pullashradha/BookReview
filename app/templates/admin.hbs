@@ -7,10 +7,12 @@
 <div class="admin-books-list">
   <h2>Books List</h2>
   {{#each model as |book|}}
+  <div class="admin-each-book">
     <h4>{{book.title}} By {{book.author}}</h4>
     <div class="row">
-      {{update-book book=book}}
-      <!-- <button {{action "deleteBook" book}} class="col-xs-6 btn btn-danger">Delete</button> -->
+      {{update-book book=book deleteBook="deleteBook"}}
+      <button {{action "deleteBook" book}} class="col-xs-6 btn btn-danger">Delete</button>
     </div>
+  </div>
   {{/each}}
 </div>
