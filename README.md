@@ -44,7 +44,7 @@ Create a list of favorite books for a reviewer | --- | ---
 
 HTML | CSS | EmberJS
 ----- | ----- | -----
---- | --- | ---
+--- | --- | Add imageDescription in models for accessibility
 
 ## Support and Contact Details
 

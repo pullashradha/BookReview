@@ -1,0 +1,10 @@
+<div class="book-tile">
+  <div class="row">
+    {{#link-to "book" book.id}}<img src={{book.image}} alt={{book.title}} class="col-xs-6"/>{{/link-to}}
+    <div class="col-xs-6">
+      <h2>{{book.title}}</h2>
+      <h3>By {{book.author}}</h3>
+      <h4>{{book.tagLine}}</h4>
+    </div>
+  </div>
+</div>

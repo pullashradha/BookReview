@@ -13,7 +13,7 @@ body {
 }
 
 /*---------------------------Index Styling---------------------------*/
-.index-tagline {
+.tag-line {
   text-align: center;
   margin-top: 50px;
 }
@@ -61,4 +61,23 @@ input, textarea {
 .btn-success {
   font-size: 15pt;
   margin-top: 15px;
+}
+
+/*---------------------------Book Details Styling---------------------------*/
+.book-tile {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.book-content {
+  margin-top: 75px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.book-content h4 {
+  font-size: 25pt;
+  margin-top: 50px;
+  text-align: center;
 }
