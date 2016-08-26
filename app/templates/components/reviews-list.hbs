@@ -1,4 +1,6 @@
 {{#each sortedReviewsByRating as |review|}}
-  {{review-tile review=review}}
-  {{update-review updateReview="updateReview" review=review}}
+  <div class="review-tile">
+    {{review-tile review=review}}
+    {{update-review updateReview="updateReview" review=review}}
+  </div>
 {{/each}}
