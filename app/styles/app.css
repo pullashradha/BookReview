@@ -116,12 +116,12 @@ hr {
 }
 
 .review-tile {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -200px;
+  margin-bottom: -425px;
 }
 
 .review-tile p {
@@ -137,6 +137,6 @@ li {
 }
 
 .book-reviews .btn-warning {
-  font-size: 15pt;
-  margin-top: 15px;
+  font-size: 12pt;
+  margin-bottom: 50px;
 }
