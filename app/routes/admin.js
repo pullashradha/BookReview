@@ -14,8 +14,13 @@ export default Ember.Route.extend ({
       this.transitionTo("admin");
     },
     deleteBook(book) {
-      if(confirm("Are you sure you want to delete this book?")) {
+      if (confirm("Are you sure you want to delete this book?")) {
         book.destroyRecord(); //No need for .store Firebase reference when destroying
+      }
+    },
+    deleteReview(review) {
+      if (confirm("Are you sure you want to delete this review?")) {
+        review.destroyRecord();
       }
     }
   }

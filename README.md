@@ -35,7 +35,7 @@ View all books to rate on index page | --- | ---
 View details for one book | --- | ---
 Add a review for a book on book-details page | --- | ---
 View all reviews for a book on book-details page | --- | ---
-Update a review on admin page | --- | ---
+Update a review on book detail page | --- | ---
 Delete a review on admin page | --- | ---
 Sort reviews for a book in ascending order | --- | ---
 Create a list of favorite books for a reviewer | --- | ---

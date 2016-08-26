@@ -20,6 +20,7 @@
   {{#each model.reviews as |review|}}
     <div class="admin-each-review">
       <h4>{{review.username}}: {{review.reviewContent}}</h4>
+      <button {{action "deleteReview" review}} class="btn btn-danger">Delete</button>
     </div>
   {{/each}}
 </div>
