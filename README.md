@@ -22,7 +22,7 @@ This program can only be accessed on a computer with Git and Atom software, and 
 
 ## Known Bugs
 
-* Program allows user to add multiples of the save book to the favorites list
+No known bugs.
 
 ## Specifications
 
