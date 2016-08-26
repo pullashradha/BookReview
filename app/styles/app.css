@@ -98,6 +98,7 @@ input, textarea {
   margin-top: 35px;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: -200px;
 }
 
 .review-tile p {
